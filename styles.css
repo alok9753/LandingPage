@@ -1,0 +1,62 @@
+/* Reset some default styles */
+body, h1, h2, p{
+  margin: 0;
+  padding: 0;
+}
+
+/* style the header and navigation */
+header{
+  background-color: #333;
+  color: #fff;
+  padding: 10px 0;
+}
+
+nav{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 960px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+.logo h1{
+  font-size: 24px;
+}
+
+.nav-lonks li{
+  list-style: none;
+  display: inline;
+  margin-left: 20px;
+}
+
+/* Style the hero section */
+.hero{
+  background-image: url(images/c.jpg);
+  background-size: cover;
+  color: #fff;
+  text-align: center;
+  padding: 100px 0;
+}
+.hero h1{
+  font-size: 36px;
+  margin-buttom: 20px;
+}
+
+.cta-buttton{
+  display: inline-block;
+  background-color: #ff5733;
+  color: #fff;
+  padding: 10px 20px;
+  text-decoration: none;
+  border-radius: 5px;
+  font-weight: bold;
+  margin-top: 20px;
+}
+/* Style the footer */
+footer{
+  background-color: #333;
+  color: #fff;
+  text-align: center;
+  padding: 20px 0;
+}
